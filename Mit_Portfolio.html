@@ -1489,12 +1489,14 @@ function showToast(msg) {
 // ─── RESUME ───
 function downloadResume() {
   showToast('📄 Opening resume…');
+
   setTimeout(() => {
-    const a = document.createElement('a');
-    a.href = 'Mit_Umaretiya_AIML.pdf';
-    a.download = 'Mit_Umaretiya_AIML.pdf';
-    a.click();
-    setTimeout(() => showToast('✅ Resume downloaded!'), 700);
+    window.location.href = 'Mit_Umaretiya_AIML.pdf';
+
+    setTimeout(() => {
+      showToast('✅ Resume opened!');
+    }, 700);
+
   }, 700);
 }
 
