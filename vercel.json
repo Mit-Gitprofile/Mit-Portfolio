@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "C:\Users\HP\OneDrive\Desktop\RESUME'S\Portfolio\Mit_Portfolio.html"
+    }
+  ]
+}
